@@ -13,9 +13,7 @@
             .when('/home', {
                 templateUrl: 'home.tpl.html',
             })
-            .otherwise({
-                redirectTo: '/home'
-            });
+           
     }
 
     function configDefaults($rootScope) {

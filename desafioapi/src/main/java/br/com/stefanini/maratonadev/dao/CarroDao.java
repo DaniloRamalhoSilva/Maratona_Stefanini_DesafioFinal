@@ -17,4 +17,6 @@ public class CarroDao {
     public List<Carro> listar(){
         return Carro.listAll(Sort.by("modelo,marca").ascending());
     }
+    
+    
 }
